@@ -1,0 +1,388 @@
+/* Reset default styles */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+.medium{
+    font-size: 1.75rem;
+}
+.small{
+    font-size: 1.25rem;
+}
+
+
+
+.container{
+
+    display: flex;
+    padding: 5%;
+    overflow: hidden;
+    justify-content: space-between;
+    border: 0px;
+
+}
+
+
+
+
+
+
+
+
+nav{
+    color: aliceblue;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    background-color: rgb(16, 223, 54);
+    
+     width: 100%;
+     position: fixed;
+}
+
+
+
+#navoption{
+    color: aliceblue;
+   display: flex;
+   justify-content: space-between;
+   width: 40%;
+   
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+.intro{
+    background: url("https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+  background-size: cover;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: auto;
+    height: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 0px;
+    
+ 
+}
+.big{
+    font-size: 7rem;
+    flex-wrap: nowrap;
+}
+
+.big div{
+    text-align: center;
+}
+
+
+.sm{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .about-us{
+    margin: 0px;
+    background-color: rgb(243, 148, 148);
+    width: 100%;
+
+} 
+
+
+
+
+.about-img{
+    width: 20%;
+    
+
+    
+}
+.about-flex{
+    width: 20%;
+}
+
+.about-img img{
+    width: 100%;
+    
+}
+.about-txt{
+    width: 70%;
+    padding: 0px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+.services{
+    background-color: #2ecf9c;
+}
+.service-text{
+    color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.card{
+    width: 24%;
+    box-shadow: 0% 1% 0% 1% #888888;
+
+}
+.card-image{
+    width: 100%;
+    overflow: hidden;
+}
+.card-image:hover{
+    scale: 110%;
+}
+.card-image img{
+    width: 100%;
+}
+.card-large{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin: auto;
+    /* text-align: center; */
+}
+.card-small{
+    font-size: 1.25;
+    color: aliceblue
+}
+.card-btn{
+    width: 40%;
+    /* margin-left: 30%; */
+    margin-top: 5%;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5%;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.card-btn:hover{
+    scale: 110%;
+}
+
+
+
+
+
+
+.testimonial{
+    background-color: rgb(36, 36, 230);
+    color: white;
+}
+
+
+
+
+
+
+.threeimg{
+    overflow: hidden;
+    padding-bottom: 1.5%;
+}
+.our-client-txt{
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+
+.client-3img{
+    width: 30%;
+    height: 50%;
+
+}
+
+.client-3img img{
+    width: 100%;
+    height: 50%;
+}
+
+.client-3img:hover{
+    scale: 110%;
+}
+.twoimg{
+    padding-top: 1.5%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 40%;
+} 
+.client-2img{
+    width: 40%;
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: hidden;
+    
+} 
+ .client-2img img{
+    width: 100%;
+} 
+.client-2img:hover{
+      scale: 110%;
+}
+.client-2img img{
+    width: 100%;
+    padding-top: 0%;
+} 
+
+
+
+
+
+
+
+.map{
+    height: 50vh;
+}
+
+.mapimg{
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.get-in-touch{
+    background-color: #2da852;
+    color: white;
+    padding: 8%;
+    justify-content: space-between;
+}
+.get-in-touch-text{
+    width: 40%;
+}
+.get-in-touch-form{
+    width: 50%;
+ 
+}
+/* .get-in-touch-form form{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    padding-right: 2%;
+} */
+.form-name-email{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.form-name{
+    width:40%;
+}
+.form-email{
+    width: 50%;
+}
+#email{
+    box-sizing: border-box;
+ width: 100%;
+
+}
+.form-message{
+   width: 100%;
+}
+#message{
+    width: 100%;
+    height: 10vh;   
+}
+.form-submit{
+    text-align: right;
+ 
+}
+.form-submit input{
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid rgb(243, 191, 5);
+    color: rgb(229, 254, 5);
+    font-size: 1rem;
+}
+.form-submit input:hover{
+    scale: 125%;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: rgb(6, 138, 138);
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-lg{
+    color:aliceblue;
+}
+.footer-small{
+    color:white;
+}
+
+.footer-icons{
+    padding: 1%;
+    justify-content: space-between;
+    width: 30%;
+   
+}
+
+.footer-icons div a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.footer-icon{
+   height: 5vh;
+}
+
+
+
+
+
+
